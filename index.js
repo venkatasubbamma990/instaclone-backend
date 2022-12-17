@@ -10,7 +10,7 @@ app.use("/",routes)
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
-const mongoAtlas = "mongodb+srv://venakatsubbamma:sudha1454@cluster0.hg3uryi.mongodb.net/?retryWrites=true&w=majority"
+const mongoAtlas = "mongodb+srv://venkatasubbamma:sudha1454@cluster0.ucznbbk.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(mongoAtlas,{ useNewUrlParser: true, useUnifiedTopology: true },()=>{
     console.log("connected to db")
 })
