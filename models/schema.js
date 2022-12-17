@@ -5,7 +5,7 @@ const instaSchema = new mongoose.Schema({
     Location: { type: String, required: true },
     Description: { type: String, required: true },
     Likes: { type: Number },
-    
+    Date:{type:Date}
 });
 
 const InstaPost = mongoose.model("InstaPost", instaSchema);
